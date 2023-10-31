@@ -10,7 +10,8 @@
 
 * Step 1: download this repo and extract the .github, assets, and source folders into the mod's folder that ur porting. If it asks you to replace anything go ahead and do it.
 
-* Step 2: In project.xml after this line "<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" resizable="false"/>", add "<define name="mobileC" if="mobile" />" and "<assets path="assets/shared/images/hitbox"/>"
+* Step 2: In project.xml after this line: <window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" resizable="false"/>
+add: <define name="mobileC" if="mobile" /> and <assets path="assets/shared/images/hitbox"/>
 
 Step 3: If the mod you're porting has discord rpc support make sure to comment it out or just remove it completely.
 
