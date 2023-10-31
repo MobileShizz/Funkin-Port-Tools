@@ -2,7 +2,7 @@
 
 ## WARNING: 
 
-# This is for 0.2.7.1, go to the other branch for 0.2.8!
+# This is for 0.2.7.1, go to the other branch for 0.2.8! (NOT EVEN STARTED YET LOL)
 
 # ALSO AT THE TIME OF TYPING THIS ISN'T DONE YET 
 
