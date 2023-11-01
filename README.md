@@ -2,7 +2,7 @@
 
 ## WARNING: 
 
-# This is for 0.2.7.1, go to the other branch for 0.2.8! (NOT EVEN STARTED YET LOL)
+# This is for 0.2.7.1, go to the [other branch for 0.2.8!](https://github.com/FNF-Mod-Porting/Funkin-Port-Tools/tree/0.2.8)
 
 # ALSO AT THE TIME OF TYPING THIS ISN'T DONE YET 
 
