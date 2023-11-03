@@ -121,10 +121,8 @@ import android.flixel.FlxButton as FlxNewButton;
 After:
 
 ```haxe
-	private function get_controls()
-	{
-		return Controls.instance;
-	}
+	inline function get_controls():Controls
+		return PlayerSettings.player1.controls;
 ```
 
 Add:
@@ -141,8 +139,6 @@ Add:
 	public function addVirtualPad(?DPad:FlxDPadMode, ?Action:FlxActionMode) {
 		_virtualpad = new FlxVirtualPad(DPad, Action, 0.75, ClientPrefs.data.antialiasing);
 		add(_virtualpad);
-		Controls.checkState = true;
-		Controls.CheckPress = true;
 		//controls.setVirtualPadUI(_virtualpad, DPad, Action);
 		//trackedinputsUI = controls.trackedinputsUI;
 		//controls.trackedinputsUI = [];
@@ -234,7 +230,7 @@ import android.flixel.FlxButton as FlxNewButton;
 After:
 ```haxe
 	inline function get_controls():Controls
-		return Controls.instance;
+		return PlayerSettings.player1.controls;
 ```
 
 Add:
@@ -250,8 +246,6 @@ Add:
 	public function addVirtualPad(?DPad:FlxDPadMode, ?Action:FlxActionMode) {
 		_virtualpad = new FlxVirtualPad(DPad, Action, 0.75, ClientPrefs.data.antialiasing);
 		add(_virtualpad);
-		Controls.checkState = false;
-		Controls.CheckPress = true;
 		//controls.setVirtualPadUI(_virtualpad, DPad, Action);
 		//trackedinputsUI = controls.trackedinputsUI;
 		//controls.trackedinputsUI = [];
